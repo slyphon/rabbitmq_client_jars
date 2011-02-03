@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "rabbitmq_client_jars/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rabbitmq_client_jars"
+  s.name        = "slyphon-rabbitmq_client_jars"
   s.version     = RabbitmqClientJars::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jonathan D. Simms"]
